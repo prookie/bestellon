@@ -19,6 +19,13 @@ gem 'high_voltage'
 gem 'pg'
 gem 'puma'
 gem 'slim-rails'
+
+gem 'angularjs-rails', '~> 1.5'
+gem 'angular-ui-bootstrap-rails'
+gem 'autoprefixer-rails'
+gem 'font-awesome-rails'
+gem 'fastclick-rails'
+
 group :development do
   gem 'better_errors'
   gem 'hub', :require=>nil
